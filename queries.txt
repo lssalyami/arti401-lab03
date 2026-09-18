@@ -1,0 +1,23 @@
+?- father(saad,saleh).
+true.
+
+?- father(saleh,lamyaa).
+true.
+
+?- mother(shams,layan).
+false.
+
+?- mother(reham,layan).
+true.
+
+?- sister(lamyaa,khalid).
+true.
+
+?- sister(lamyaa,reham).
+false.
+
+?- brother(X,khalid).
+X = faisal.
+
+?- brother(X,mubarak).
+X = saleh.
